@@ -1,0 +1,10 @@
+google-api-python-client
+google-auth-oauthlib
+python-docx
+youtube-transcript-api
+isodate
+protobuf
+huggingface_hub
+yt-dlp
+google-generativeai
+python-dotenv

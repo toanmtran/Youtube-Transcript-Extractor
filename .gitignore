@@ -1,0 +1,28 @@
+# Ignore the private environment file
+.env
+
+# --- Ignore IDE / Editor specfic ---
+# JetBrains (PyCharm, etc.)
+.idea/
+# Visual Studio Code
+.vscode/
+
+# Ignore the content of the credentials directory
+credentials/*
+
+# Except the README.md
+!credentials/README.md
+
+# Ignore Python's cache folders and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the virtual environment folder
+.venv/
+venv/
+env/
+
+# Ignore temporary audio files from the application
+src/services/audio_temp/

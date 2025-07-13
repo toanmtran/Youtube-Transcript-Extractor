@@ -207,6 +207,8 @@ class Application:
         desktop_paths = [
             os.path.join(os.path.expanduser("~"), "Desktop"),
             os.path.join(os.path.expanduser("~"), "OneDrive", "Desktop"),
+            os.path.join(os.path.expanduser("~"), "Máy tính"),
+            os.path.join(os.path.expanduser("~"), "OneDrive", "Máy tính")
         ]
         for path in desktop_paths:
             if os.path.isdir(path):
